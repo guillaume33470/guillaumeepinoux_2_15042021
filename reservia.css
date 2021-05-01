@@ -1,0 +1,556 @@
+@font-face {
+    font-family: "raleway";
+    src: url("/fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "raleway Bold";
+    src: url("/fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "raleway extraBold";
+    src: url("/fonts/Raleway-ExtraBold.ttf");
+}
+
+
+/*********global*************/
+
+body {
+    margin-left: 140px;
+    margin-right: 100px;
+    font-family: 'Raleway', 'Raleway Bold', 'raleway extrabold', sans-serif;
+}
+
+
+/**********ecriture***********/
+
+h1 {
+    font-family: 'raleway extrabold';
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 810;
+    word-spacing: initial;
+}
+
+h2 {
+    font-size: 0.98rem;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.fil {
+    font-family: 'raleway extrabold';
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-right: 15px;
+    margin-bottom: -60px;
+}
+
+#h3h {
+    font-family: 'raleway extrabold';
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.populaire {
+    font-family: 'raleway extrabold';
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+
+#H3act {
+    font-family: 'raleway extrabold';
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top: 90px;
+}
+
+h4 {
+    font-family: 'raleway extrabold';
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.affiche {
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 90px;
+    margin-left: 30px;
+}
+
+.H4act {
+    text-align: left;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+h5 {
+    text-align: left;
+    font-weight: normal;
+    font-size: 0.8rem;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+
+/******header********/
+
+.entete {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -90px;
+}
+
+
+/******logo*******/
+
+#logo {
+    width: 90px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*******barre de naviguation*******/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 65%;
+}
+
+.nav li {
+    list-style: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.nav a {
+    margin: 0px 30px;
+    color: #0065FC;
+    text-decoration: none;
+}
+
+#trait {
+    border-top: 2px #0065FC solid;
+    padding-top: 30px;
+}
+
+#trait2 {
+    color: black;
+}
+
+
+/**********formulaire de recherche******/
+
+.fa-map-marker-alt {
+    box-shadow: 0px 0px 0px 2px #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    border: 0px #F2F2F2 solid;
+    padding: 15px 17px 17px 17px;
+    background-color: #F2F2F2;
+}
+
+.fa-search {
+    font-size: 0rem;
+}
+
+.barre {
+    border: 2px #F2F2F2 solid;
+    height: 53px;
+    width: 240px;
+    margin-left: -4px;
+    margin-right: -4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.myButton {
+    box-shadow: 0px 0px 0px 2px #0065FC;
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #283966;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 20px 16px;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.barre::placeholder {
+    font-weight: 600;
+    color: #010307;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+/*****filtres*****/
+
+#nav2 li {
+    display: inline;
+    font-size: 0.6em;
+}
+
+#nav2 {
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 62px;
+    text-align: left;
+    font-family: 'raleway extrabold';
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#nav2 a {
+    display: inline-block;
+    color: #010307;
+    text-decoration: none;
+}
+
+.button {
+    text-align: center;
+}
+
+.Button:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+    box-shadow: 0px 0px 0px 2px #0065FC;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+/*****bordure global des filtres*****/
+
+.eco {
+    box-shadow: 0px 0px 0px 2px #F2F2F2;
+    border-radius: 50px 50px;
+    margin-left: 35px;
+    padding: 10px 10px 10px 0px;
+}
+
+
+/*******gestion bordure des icones isolés******/
+
+.fa-money-bill-wave {
+    box-shadow: 0px 0px 0px 2px #DEEBFF;
+    border-radius: 50px 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    color: #0065FC;
+}
+
+.fa-child {
+    box-shadow: 0px 0px 0px 2px #DEEBFF;
+    border-radius: 50px 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    color: #0065FC;
+}
+
+.fa-heart {
+    box-shadow: 0px 0px 0px 2px #DEEBFF;
+    border-radius: 50px 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    color: #0065FC;
+}
+
+.fa-dog {
+    box-shadow: 0px 0px 0px 2px #DEEBFF;
+    border-radius: 50px 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    color: #0065FC;
+}
+
+
+/***********point info +texte********/
+
+.fa-info {
+    box-shadow: 0px 0px 0px 2px #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    padding: 5px 10px;
+    color: #0065FC;
+    margin-top: 30px;
+}
+
+.log {
+    margin-top: -22px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+
+/**********conteneur pour section hebergements et populaire******/
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 550px;
+}
+
+.stars {
+    margin-left: 10px;
+}
+
+.stars2 {
+    margin-top: 30px;
+}
+
+.fa-star {
+    color: #0065FC;
+    font-size: 0.5em;
+}
+
+.grey {
+    color: #F2F2F2;
+}
+
+
+/*********section  hebergements**********/
+
+#hebergement {
+    background-color: #F2F2F2;
+    margin-top: 1px;
+    margin-right: 5px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 15px 15px 15px 15px;
+    width: 65%;
+}
+
+.range1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5px 40px;
+    width: 92%;
+}
+
+.art {
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 10px 10px 10px 10px;
+    margin: 15px 15px 5px 5px;
+    width: 30%;
+    height: 190px;
+}
+
+.img1 {
+    Display: flex;
+    border-radius: 10px 10px 0px 0px;
+    height: 120px;
+    width: 96%;
+    text-align: center;
+    Margin: auto;
+    margin-top: 3px;
+    object-fit: cover;
+}
+
+
+/*********section populaire***********/
+
+.asides {
+    background-color: #F2F2F2;
+    margin-left: 45px;
+    border: 2px #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    height: auto;
+    width: 28%;
+}
+
+.pop {
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px;
+    height: 135px;
+    width: 85%;
+}
+
+.img2 {
+    float: left;
+    height: 130px;
+    width: 130px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 10px;
+    border-radius: 10px 0px 0px 10px;
+    display: table-column;
+    object-fit: cover;
+}
+
+.fa-chart-line {
+    margin-left: 27%;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+
+/********section activités*************/
+
+#activites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.act1 {
+    background-color: white;
+    border: 2px #F2F2F2 solid;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 20px;
+    height: 390px;
+    width: 320px;
+}
+
+.act1a {
+    background-color: white;
+    border: 2px #F2F2F2 solid;
+    border-radius: 20px 20px 20px 20px;
+    height: 390px;
+    width: 320px;
+    margin-right: 25px;
+}
+
+.act2a {
+    background-color: white;
+    border: 2px #F2F2F2 solid;
+    border-radius: 20px 20px 20px 20px;
+    height: 220px;
+    width: 270px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.act2b {
+    background-color: white;
+    border: 2px #F2F2F2 solid;
+    border-radius: 20px 20px 20px 20px;
+    height: 140px;
+    width: 270px;
+}
+
+.act2c {
+    background-color: white;
+    border: 2px #F2F2F2 solid;
+    border-radius: 20px 20px 20px 20px;
+    height: 180px;
+    width: 270px;
+    margin-bottom: 25px;
+}
+
+.act2d {
+    background-color: white;
+    border: 2px #F2F2F2 solid;
+    border-radius: 20px 20px 20px 20px;
+    height: 180px;
+    width: 270px;
+}
+
+.img3 {
+    border-radius: 20px 20px 0px 0px;
+    height: 340px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img4 {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.img5 {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.img6 {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+
+/**********footer*****************/
+
+#pieds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px #F2F2F2;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #F2F2F2;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.assistance {
+    margin-right: 380px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.gras {
+    font-family: 'raleway extrabold';
+    font-weight: bold;
+}
+
+.gras2 {
+    font-family: 'raleway extrabold';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
