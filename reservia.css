@@ -1,113 +1,110 @@
 @font-face {
     font-family: "raleway";
-    src: url("/fonts/Raleway-Regular.ttf");
+    src: url('fonts/Raleway-Regular.ttf');
 }
 
 @font-face {
-    font-family: "raleway Bold";
-    src: url("/fonts/Raleway-Bold.ttf");
-}
-
-@font-face {
-    font-family: "raleway extraBold";
-    src: url("/fonts/Raleway-ExtraBold.ttf");
+    font-family: "ralewayB";
+    src: url('fonts/Raleway-ExtraBold.ttf');
 }
 
 
 /*********global*************/
 
 body {
-    margin-left: 140px;
+    margin-left: 100px;
     margin-right: 100px;
-    font-family: 'Raleway', 'Raleway Bold', 'raleway extrabold', sans-serif;
 }
 
 
 /**********ecriture***********/
 
 h1 {
-    font-family: 'raleway extrabold';
+    font-family: 'ralewayB';
     text-align: left;
     margin-top: 20px;
     font-size: 1.4rem;
-    font-weight: 810;
     word-spacing: initial;
 }
 
 h2 {
+    font-family: 'raleway';
     font-size: 0.98rem;
     font-weight: normal;
     margin-top: 0px;
 }
 
 .fil {
-    font-family: 'raleway extrabold';
+    font-family: 'ralewayB';
     font-size: 1.2rem;
-    font-weight: bold;
     margin-top: 45px;
     margin-right: 15px;
     margin-bottom: -60px;
 }
 
 #h3h {
-    font-family: 'raleway extrabold';
+    font-family: 'ralewayB';
     text-align: left;
     font-size: 1.2rem;
-    font-weight: 700;
     margin-top: 30px;
     margin-bottom: 0px;
     margin-left: 50px;
 }
 
 .populaire {
-    font-family: 'raleway extrabold';
+    font-family: 'ralewayB';
     text-align: left;
     font-size: 1.2rem;
-    font-weight: 700;
     margin-top: 30px;
     margin-bottom: 0px;
     margin-left: 25px;
 }
 
 #H3act {
-    font-family: 'raleway extrabold';
+    font-family: 'ralewayB';
+    font-weight: bolder;
     text-align: left;
     font-size: 1.2rem;
     margin-top: 90px;
 }
 
 h4 {
-    font-family: 'raleway extrabold';
+    font-family: 'ralewayB';
     text-align: left;
     font-size: 1rem;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 2px;
     margin-bottom: 0px;
 }
 
 .affiche {
+    font-family: 'ralewayB';
     text-align: left;
     font-size: 1rem;
     margin-top: 2px;
     margin-bottom: 90px;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .H4act {
+    font-family: 'ralewayB';
     text-align: left;
     font-size: 0.9rem;
     margin-top: 10px;
     margin-left: 20px;
-    font-weight: bolder;
 }
 
 h5 {
+    font-family: 'Raleway';
     text-align: left;
-    font-weight: normal;
     font-size: 0.8rem;
     margin-top: 1px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 0px;
+}
+
+strong {
+    font-family: 'ralewayB';
 }
 
 
@@ -186,8 +183,6 @@ h5 {
     width: 240px;
     margin-left: -4px;
     margin-right: -4px;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .myButton {
@@ -199,7 +194,7 @@ h5 {
     color: #ffffff;
     text-shadow: 0px 1px 0px #283966;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
     padding: 14px 20px 16px;
 }
@@ -332,7 +327,7 @@ h5 {
 }
 
 .stars {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .stars2 {
@@ -371,8 +366,8 @@ h5 {
 
 .art {
     background-color: white;
+    box-shadow: 3px 5px 3px #9a9a9a;
     border: 1px white solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
     border-radius: 10px 10px 10px 10px;
     margin: 15px 15px 5px 5px;
     width: 30%;
@@ -405,7 +400,7 @@ h5 {
 .pop {
     background-color: white;
     border: 1px white solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
+    box-shadow: 3px 5px 3px #9a9a9a;
     border-radius: 20px 20px 20px 20px;
     margin: 20px;
     height: 135px;
@@ -443,8 +438,8 @@ h5 {
 .act1 {
     background-color: white;
     border: 2px #F2F2F2 solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 5px 3px #9a9a9a;
     margin-right: 20px;
     height: 390px;
     width: 320px;
@@ -453,8 +448,8 @@ h5 {
 .act1a {
     background-color: white;
     border: 2px #F2F2F2 solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 5px 3px #9a9a9a;
     height: 390px;
     width: 320px;
     margin-right: 25px;
@@ -463,8 +458,8 @@ h5 {
 .act2a {
     background-color: white;
     border: 2px #F2F2F2 solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 5px 3px #9a9a9a;
     height: 220px;
     width: 270px;
     margin-bottom: 25px;
@@ -474,8 +469,8 @@ h5 {
 .act2b {
     background-color: white;
     border: 2px #F2F2F2 solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 5px 3px #9a9a9a;
     height: 140px;
     width: 270px;
 }
@@ -483,8 +478,8 @@ h5 {
 .act2c {
     background-color: white;
     border: 2px #F2F2F2 solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 5px 3px #9a9a9a;
     height: 180px;
     width: 270px;
     margin-bottom: 25px;
@@ -493,8 +488,8 @@ h5 {
 .act2d {
     background-color: white;
     border: 2px #F2F2F2 solid;
-    box-shadow: 3px 5px 3px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 5px 3px #9a9a9a;
     height: 180px;
     width: 270px;
 }
@@ -549,16 +544,15 @@ h5 {
 }
 
 li {
+    font-family: 'raleway';
     list-style-type: none;
 }
 
 .gras {
-    font-family: 'raleway extrabold';
-    font-weight: bold;
+    font-family: 'ralewayB';
 }
 
 .gras2 {
-    font-family: 'raleway extrabold';
-    font-weight: bold;
+    font-family: 'ralewayB';
     margin-bottom: 10px;
 }
