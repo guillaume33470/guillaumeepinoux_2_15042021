@@ -14,13 +14,13 @@
 <header>
     <img src="logo/Reservia@3x.png" alt="Logo_page" title="Accueil" id="logo" />
                     <!--barre de naviguation et ancres pour le menu de tête-->
-    <div class="entete">
+    <nav class="entete">
         <ul class="nav">
             <li><a id="trait" href="#hebergement">Hébergements</a></li>
             <li><a id="trait2" href="#activites">Activités</a></li>
             <li class="gras"><a href="#">S'inscrire</a></li>
         </ul>
-    </div>
+    </nav>
     <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
     <h2>En plein centre ville ou en pleine nature</h2>
                         <!--formulaire rechercher-->
@@ -34,6 +34,7 @@
     </form>
                         <!--Barre de nav pour les filtres-->
     <h2 class="fil">Filtres</h2>
+    <nav>
         <ul id="nav2">
             <li class="eco">
                 <i class="fas fa-money-bill-wave"></i>
@@ -53,15 +54,14 @@
             </li>
         </ul>
                         <!--div reservée au point info-->
-    <div>
+    </nav>
         <i class="fas fa-info"></i>
         <h2 class="log">Plus de 500 logements sont disponibles dans cette ville</h2>
-    </div>
 </header>
                         <!--section hebergements + populaire-->
 <div id="conteneur">
                                 <!--section hebergements-->
-<div id="hebergement">
+<section id="hebergement">
     <h3 id="h3h">Hebergements à Marseille</h3>
     <div class="range1">
         <article class="art">
@@ -137,9 +137,9 @@
         </article>
     </div>
     <h4 class="affiche">Afficher plus</h4>
-</div>
+</section>
                                 <!--section populaires-->
-<div class="asides">
+<aside class="asides">
     <div>
         <h3 class="populaire">Les plus populaires
         <i class="fas fa-chart-line"></i>
@@ -181,11 +181,11 @@
                 <i class="fas fa-star grey"></i>
             </div>
         </article>
-</div>
+</aside>
 </div>
                                     <!--section activités-->
 <h3 id="H3act">Activités à Marseille</h3>
-    <div id="activites">
+    <section id="activites">
         <article class="act1">
             <img class="img3" src="3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"/>
             <h4 class="H4act">Vieux port</h4>
@@ -214,32 +214,32 @@
                 <h4 class="H4act">Parc Longchamp</h4>
             </div>
         </article>
-    </div>
+    </section>
                                                 <!--footer-->
 <footer>
 <div id="pieds">
-    <div class="propos">
+    <nav class="propos">
         <ul>
             <li class="gras2">A Propos</li>
             <li>Fonctionnement du site</li>
             <li>Conditions générales de ventes</li>
             <li>Données et confidentialité</li>
         </ul>
-    </div>
-    <div class="hebergements">
+    </nav>
+    <nav class="hebergements">
         <ul>
             <li class="gras2">Nos Hebergements</li>
             <li> Charte qualité</li>
             <li>Soumettre votre hôtel</li>
         </ul>
-    </div>
-    <div class="assistance">
+    </nav>
+    <nav class="assistance">
         <ul>
             <li class="gras2">Assistance<li>
             <li>Centre d'aide</li>
             <li>Nous contacter</li>
         </ul>
-    </div>
+    </nav>
 </div>
 </footer>
 <script src="https://kit.fontawesome.com/8fc61f04f6.js" crossorigin="anonymous"></script>
