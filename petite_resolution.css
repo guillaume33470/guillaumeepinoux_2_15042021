@@ -1,18 +1,17 @@
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
     /*******global********/
     body {
         margin: auto;
     }
     /*****logo********/
     #logo {
-        margin-left: 70px;
+        margin-top: 0px;
     }
     /****barre de naviguation****/
     .nav {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap-reverse;
-        justify-content: flex-end;
         margin-top: 60px;
         margin-left: 0px;
         padding: 0px;
@@ -28,6 +27,9 @@
         color: #0065FC;
         text-decoration: none;
     }
+    a#trait2 {
+        margin-left: auto;
+    }
     #trait {
         display: inline-block;
         border-bottom: 3px #0065FC solid;
@@ -35,7 +37,7 @@
         font-weight: bold;
         text-align: center;
         width: 100%;
-        margin-left: 15px;
+        margin-left: 0px;
         padding-right: 30px;
         padding-bottom: 10px;
         border-top: none;
@@ -43,31 +45,30 @@
     }
     #trait2 {
         display: inline-block;
-        width: 120%;
-        padding-left: 20px;
+        width: 140%;
         padding-bottom: 10px;
+        margin-right: 20px;
         border-bottom: 3px #F2F2F2 solid;
         text-align: center;
         color: black;
         font-weight: bold;
     }
     .gras {
-        margin-bottom: 30px;
-        margin-top: -35px;
-        margin-right: -70px;
+        margin-bottom: 70px;
+        margin-top: -30px;
+        margin-left: 200px;
     }
     /*****h1 , h2 *******/
     h1 {
-        margin-left: 70px;
         width: 95%;
     }
     h2 {
-        margin-left: 70px;
+        margin-left: auto;
         width: 100%;
     }
     /***formulaire de recherche*****/
     form {
-        margin-left: 70px;
+        margin-left: auto;
         width: 100%;
     }
     p {
@@ -95,7 +96,6 @@
     }
     /******filtres**********/
     .fil {
-        margin-left: 70px;
         margin-bottom: 2px;
         margin-top: 10px;
     }
@@ -106,15 +106,17 @@
     }
     li {
         margin-top: 10px;
-        margin-left: 10px;
+        margin-right: 40px;
+    }
+    .eco {
+        margin-left: 0px;
     }
     #nav2 {
         margin: 0;
-        padding: 0;
-        margin-left: 40px;
+        padding-left: 10px;
         font-size: 1.950em;
         font-weight: bold;
-        width: 100%;
+        width: 95%;
     }
     #nav2 a {
         display: inline-block;
@@ -134,8 +136,7 @@
     .eco {
         box-shadow: 0px 0px 0px 2px #F2F2F2;
         border-radius: 25px 25px 25px 25px;
-        padding: 2px 17px;
-        margin-left: 35px;
+        padding: 2px 0px;
     }
     /******icones des fitres*******/
     .fa-money-bill-wave {
@@ -172,10 +173,10 @@
     }
     /*****point info + texte********/
     .fa-info {
-        margin-left: 80px;
+        margin-left: 10px;
     }
     .log {
-        margin-left: 120px;
+        margin-left: 40px;
         font-family: 'raleway Bold';
         font-size: 1.2rem;
         width: 90%;
@@ -190,88 +191,85 @@
     /************section populaire*************/
     .asides {
         border-radius: 0px 0px 0px 0px;
-        width: 102%;
+        min-width: 100%;
         height: auto;
-        margin-left: 60px;
+        margin-left: 0px;
     }
     .fa-chart-line {
         margin-left: 30%;
-        font-size: 1.3rem;
-        font-weight: 800;
     }
     /***********section hebergement**********/
     #hebergement {
         background-color: white;
         border: none;
-        width: 375px;
+        min-width: 95%;
         height: auto;
         margin-top: 45px;
-        margin-left: 28px;
         margin-bottom: -100px;
     }
     .range1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        min-width: 100%;
+        margin: 0px
+    }
+    #h3h {
+        margin-left: 0%;
     }
     .art {
         border: 2px #F2F2F2 solid;
         box-shadow: 3px 5px 3px #F2F2F2;
-        width: 92%;
+        min-width: 100%;
     }
     .img1 {
         width: 100%;
     }
     .affiche {
-        margin-left: 50px;
+        margin-left: 0px;
     }
     /******section activité*************/
-    #H3act {
-        margin-left: 70px;
-    }
     #activites {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        min-width: 90%;
         height: auto;
-        margin-left: 70px;
         margin-top: 0px;
     }
     .act1 {
         box-shadow: 3px 5px 3px #F2F2F2;
-        width: 355px;
+        min-width: 95%;
         height: 200px;
         margin-bottom: 20px;
     }
     .act1a {
         box-shadow: 3px 5px 3px #F2F2F2;
-        width: 355px;
-        height: 190px;
+        min-width: 95%;
+        height: 200px;
         margin-bottom: 20px;
     }
     .act2a {
         box-shadow: 3px 5px 3px #F2F2F2;
-        width: 355px;
+        min-width: 95%;
         height: 200px;
         margin-bottom: 20px;
     }
     .act2b {
         box-shadow: 3px 5px 3px #F2F2F2;
-        width: 355px;
+        min-width: 95%;
         height: 200px;
         margin-bottom: 20px;
     }
     .act2c {
         box-shadow: 3px 5px 3px #F2F2F2;
-        width: 355px;
+        min-width: 95%;
         height: 200px;
         margin-bottom: 20px;
     }
     .act2d {
         box-shadow: 3px 5px 3px #F2F2F2;
-        width: 355px;
-        height: 190px;
+        min-width: 95%;
+        height: 200px;
         margin-bottom: 20px;
     }
     .img3 {
@@ -302,11 +300,12 @@
     #pieds {
         display: flex;
         flex-direction: column;
-        width: 365px;
+        width: 100%;
         height: auto;
-        margin-left: 40px;
+        padding: 0%;
     }
     .assistance {
         width: 100%;
+        margin-right: 0px;
     }
 }

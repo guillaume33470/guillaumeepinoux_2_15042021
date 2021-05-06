@@ -12,8 +12,7 @@
 /*********global*************/
 
 body {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: auto;
 }
 
 
@@ -180,7 +179,7 @@ strong {
 .barre {
     border: 2px #F2F2F2 solid;
     height: 53px;
-    width: 240px;
+    max-width: 240px;
     margin-left: -4px;
     margin-right: -4px;
 }
@@ -354,6 +353,7 @@ strong {
     border: 2px #F2F2F2 solid;
     border-radius: 15px 15px 15px 15px;
     width: 65%;
+    max-width: 65%;
 }
 
 .range1 {
@@ -363,6 +363,7 @@ strong {
     flex-wrap: wrap;
     margin: 5px 40px;
     width: 92%;
+    max-width: 92%;
 }
 
 .art {
@@ -371,7 +372,8 @@ strong {
     border: 1px white solid;
     border-radius: 10px 10px 10px 10px;
     margin: 15px 15px 5px 5px;
-    width: 30%;
+    width: 25%;
+    max-width: 25%;
     height: 190px;
 }
 
@@ -380,6 +382,7 @@ strong {
     border-radius: 10px 10px 0px 0px;
     height: 120px;
     width: 96%;
+    max-width: 96%;
     text-align: center;
     Margin: auto;
     margin-top: 3px;
@@ -396,6 +399,7 @@ strong {
     border-radius: 15px 15px 15px 15px;
     height: auto;
     width: 28%;
+    max-width: 28%;
 }
 
 .pop {
@@ -406,12 +410,14 @@ strong {
     margin: 20px;
     height: 135px;
     width: 85%;
+    max-width: 85%;
 }
 
 .img2 {
     float: left;
     height: 130px;
     width: 130px;
+    max-width: 130px;
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 10px;
@@ -421,7 +427,7 @@ strong {
 }
 
 .fa-chart-line {
-    margin-left: 27%;
+    margin-left: 35%;
     font-size: 1.3rem;
     font-weight: 800;
 }
@@ -434,6 +440,7 @@ strong {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    max-width: 100%;
 }
 
 .act1 {
@@ -444,6 +451,7 @@ strong {
     margin-right: 20px;
     height: 390px;
     width: 320px;
+    max-width: 320px;
 }
 
 .act1a {
@@ -453,6 +461,7 @@ strong {
     box-shadow: 3px 5px 3px #9a9a9a;
     height: 390px;
     width: 320px;
+    max-width: 320px;
     margin-right: 25px;
 }
 
@@ -463,6 +472,7 @@ strong {
     box-shadow: 3px 5px 3px #9a9a9a;
     height: 220px;
     width: 270px;
+    max-width: 270px;
     margin-bottom: 25px;
     margin-right: 25px;
 }
@@ -474,6 +484,7 @@ strong {
     box-shadow: 3px 5px 3px #9a9a9a;
     height: 140px;
     width: 270px;
+    max-width: 270px;
 }
 
 .act2c {
@@ -483,6 +494,7 @@ strong {
     box-shadow: 3px 5px 3px #9a9a9a;
     height: 180px;
     width: 270px;
+    max-width: 270px;
     margin-bottom: 25px;
 }
 
@@ -493,18 +505,21 @@ strong {
     box-shadow: 3px 5px 3px #9a9a9a;
     height: 180px;
     width: 270px;
+    max-width: 270px;
 }
 
 .img3 {
     border-radius: 20px 20px 0px 0px;
     height: 340px;
     width: 100%;
+    max-width: 100%;
     object-fit: cover;
 }
 
 .img4 {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
+    max-width: 100%;
     height: 180px;
     object-fit: cover;
 }
@@ -512,6 +527,7 @@ strong {
 .img5 {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
+    max-width: 100%;
     height: 90px;
     object-fit: cover;
 }
@@ -519,6 +535,7 @@ strong {
 .img6 {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
+    max-width: 100%;
     height: 130px;
     object-fit: cover;
 }
@@ -535,6 +552,7 @@ strong {
     background-color: #F2F2F2;
     height: auto;
     width: 100%;
+    max-width: 100%;
     padding: 30px;
     margin-top: 50px;
     margin-bottom: 20px;
