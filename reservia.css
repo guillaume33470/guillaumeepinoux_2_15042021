@@ -70,7 +70,7 @@ h2 {
 h4 {
     font-family: 'ralewayB';
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-left: 15px;
     margin-top: 2px;
     margin-bottom: 0px;
@@ -113,7 +113,7 @@ strong {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: -90px;
 }
 
@@ -323,15 +323,10 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 550px;
 }
 
 .stars {
     margin-left: 15px;
-}
-
-.stars2 {
-    margin-top: 30px;
 }
 
 .fa-star {
@@ -353,7 +348,6 @@ strong {
     border: 2px #F2F2F2 solid;
     border-radius: 15px 15px 15px 15px;
     width: 65%;
-    max-width: 65%;
 }
 
 .range1 {
@@ -363,7 +357,6 @@ strong {
     flex-wrap: wrap;
     margin: 5px 40px;
     width: 92%;
-    max-width: 92%;
 }
 
 .art {
@@ -427,7 +420,7 @@ strong {
 }
 
 .fa-chart-line {
-    margin-left: 35%;
+    padding-left: 35%;
     font-size: 1.3rem;
     font-weight: 800;
 }
@@ -438,9 +431,7 @@ strong {
 #activites {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 100%;
+    justify-content: space-evenly;
 }
 
 .act1 {
