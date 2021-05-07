@@ -338,6 +338,21 @@ strong {
     color: #F2F2F2;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-family: 'raleway extrabold';
+}
+
+a:hover:before {
+    content: " visitez moi ";
+    font-family: 'ralewayB';
+    position: relative;
+}
+
 
 /*********section  hebergements**********/
 
@@ -367,7 +382,7 @@ strong {
     margin: 15px 15px 5px 5px;
     width: 25%;
     max-width: 25%;
-    height: 190px;
+    height: 195px;
 }
 
 .img1 {
