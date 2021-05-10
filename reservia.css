@@ -179,7 +179,8 @@ strong {
 .barre {
     border: 2px #F2F2F2 solid;
     height: 53px;
-    max-width: 240px;
+    width: 290px;
+    max-width: 290px;
     margin-left: -4px;
     margin-right: -4px;
 }
@@ -338,19 +339,9 @@ strong {
     color: #F2F2F2;
 }
 
-a {
+.clic {
     text-decoration: none;
     color: black;
-}
-
-a:hover {
-    font-family: 'raleway extrabold';
-}
-
-a:hover:before {
-    content: " visitez moi ";
-    font-family: 'ralewayB';
-    position: relative;
 }
 
 
@@ -383,6 +374,15 @@ a:hover:before {
     width: 25%;
     max-width: 25%;
     height: 195px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.art:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .img1 {
@@ -458,6 +458,15 @@ a:hover:before {
     height: 390px;
     width: 320px;
     max-width: 320px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.act1:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .act1a {
@@ -469,6 +478,15 @@ a:hover:before {
     width: 320px;
     max-width: 320px;
     margin-right: 25px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.act1a:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .act2a {
@@ -476,11 +494,20 @@ a:hover:before {
     border: 2px #F2F2F2 solid;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 3px 5px 3px #9a9a9a;
-    height: 220px;
+    height: 230px;
     width: 270px;
     max-width: 270px;
     margin-bottom: 25px;
     margin-right: 25px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.act2a:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .act2b {
@@ -491,6 +518,15 @@ a:hover:before {
     height: 140px;
     width: 270px;
     max-width: 270px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.act2b:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .act2c {
@@ -502,6 +538,15 @@ a:hover:before {
     width: 270px;
     max-width: 270px;
     margin-bottom: 25px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.act2c:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .act2d {
@@ -512,6 +557,15 @@ a:hover:before {
     height: 180px;
     width: 270px;
     max-width: 270px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.act2d:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .img3 {
@@ -534,7 +588,7 @@ a:hover:before {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     max-width: 100%;
-    height: 90px;
+    height: 85px;
     object-fit: cover;
 }
 
