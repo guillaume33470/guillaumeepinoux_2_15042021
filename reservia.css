@@ -454,9 +454,7 @@ strong {
     border: 2px #F2F2F2 solid;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 3px 5px 3px #9a9a9a;
-    margin-right: 20px;
     height: 390px;
-    width: 320px;
     max-width: 320px;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -477,7 +475,6 @@ strong {
     height: 390px;
     width: 320px;
     max-width: 320px;
-    margin-right: 25px;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
@@ -498,7 +495,6 @@ strong {
     width: 270px;
     max-width: 270px;
     margin-bottom: 25px;
-    margin-right: 25px;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
