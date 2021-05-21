@@ -14,15 +14,13 @@
     /****barre de naviguation****/
     .nav {
         flex-wrap: wrap-reverse;
-        justify-content:initial;
         margin-top: 60px;
         margin-left: 0px;
-        border-bottom: 2px grey solid;
         padding: 0px;
     }
     .trait:hover {
         border-top: none;
-        ;
+        
     }
     .nav li {
         list-style: none;
@@ -33,10 +31,26 @@
         color: #0065FC;
         text-decoration: none;
     }
+     ul li
+    {
+        border-bottom: 3px solid #f1eeee;
+        margin-bottom:10px;
+    }
+      ul li:hover
+    {
+        border-top: none;
+        border-bottom-color: #0065fc;
+        padding-top: 0rem;
+    }
     li {
         margin-bottom: 20px;
     }
+    .w50{
+        width:50%;
+        text-align:center;
+    }
     .gras {
+        border-bottom:none;
         margin-bottom: 20px;
         margin-top: -30px;
         margin-left: 250px;
