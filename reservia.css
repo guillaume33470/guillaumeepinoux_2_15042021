@@ -18,6 +18,7 @@ body {
 header,
 #conteneur {
     margin-left: 30px;
+    margin-right: 20px;
 }
 
 
@@ -135,10 +136,8 @@ strong {
 .nav {
     display: flex;
     flex-direction: row;
-    padding: 25px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    margin-left: 60%;
+    margin-bottom: 50px;
+    margin-left: 65%;
 }
 
 .nav li {
@@ -341,8 +340,8 @@ a {
 }
 
 .stars2 {
-    margin-top: 60px;
-    margin-bottom: 10px;
+    margin-left: 140px;
+    margin-top: 50px;
 }
 
 .fa-star {
@@ -426,6 +425,7 @@ section {
 }
 
 .pop {
+    position: relative;
     background-color: white;
     border: 1px white solid;
     box-shadow: 3px 5px 3px #9a9a9a;
