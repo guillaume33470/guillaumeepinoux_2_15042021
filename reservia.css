@@ -47,7 +47,7 @@ h2 {
     font-size: 1.2rem;
     margin-top: 30px;
     margin-bottom: 0px;
-    margin-left: 50px;
+    margin-left: 90px;
 }
 
 .populaire {
@@ -65,6 +65,7 @@ h2 {
     text-align: left;
     font-size: 1.2rem;
     margin-top: 90px;
+    margin-left:50px
 }
 
 h4 {
@@ -609,7 +610,7 @@ strong {
     height: auto;
     width: 100%;
     max-width: 100%;
-    padding: 30px;
+
     margin-top: 50px;
     margin-bottom: 20px;
 }
