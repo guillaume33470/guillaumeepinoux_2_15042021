@@ -15,6 +15,11 @@ body {
     margin: auto;
 }
 
+header,
+#conteneur {
+    margin-left: 30px;
+}
+
 
 /**********ecriture***********/
 
@@ -33,7 +38,7 @@ h2 {
     margin-top: 0px;
 }
 
-.fil {
+.filtre {
     font-family: 'ralewayB';
     font-size: 1.2rem;
     margin-top: 45px;
@@ -41,7 +46,7 @@ h2 {
     margin-bottom: -60px;
 }
 
-#h3h {
+#h3hebergement {
     font-family: 'ralewayB';
     text-align: left;
     font-size: 1.2rem;
@@ -59,13 +64,13 @@ h2 {
     margin-left: 25px;
 }
 
-#H3act {
+#h3activite {
     font-family: 'ralewayB';
     font-weight: bolder;
     text-align: left;
     font-size: 1.2rem;
     margin-top: 90px;
-    margin-left:70px;
+    margin-left: 70px;
 }
 
 h4 {
@@ -86,7 +91,7 @@ h4 {
     margin-left: 60px;
 }
 
-.H4act {
+.H4activite {
     font-family: 'ralewayB';
     text-align: left;
     font-size: 0.9rem;
@@ -111,10 +116,6 @@ strong {
 /******header********/
 
 .entete {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-top: -90px;
 }
 
@@ -137,7 +138,7 @@ strong {
     padding: 25px;
     margin-top: 0px;
     margin-bottom: 30px;
-    margin-left: 65%;
+    margin-left: 60%;
 }
 
 .nav li {
@@ -149,17 +150,26 @@ strong {
 
 .nav a {
     margin: 0px 30px;
-    color: #0065FC;
     text-decoration: none;
 }
 
-#trait {
+.trait {
+    color: black;
+}
+
+.trait:hover {
+    color: blue;
     border-top: 2px #0065FC solid;
     padding-top: 30px;
 }
 
 #trait2 {
     color: black;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
 }
 
 
@@ -228,7 +238,6 @@ strong {
 }
 
 #nav2 {
-    margin: 0;
     margin-left: 30px;
     margin-top: 30px;
     margin-right: 62px;
@@ -312,7 +321,7 @@ strong {
     margin-top: 30px;
 }
 
-.log {
+.logement {
     margin-top: -22px;
     margin-bottom: 25px;
     margin-left: 40px;
@@ -329,6 +338,11 @@ strong {
 
 .stars {
     margin-left: 15px;
+}
+
+.stars2 {
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
 .fa-star {
@@ -348,7 +362,7 @@ strong {
 
 /*********section  hebergements**********/
 
-#hebergement {
+section {
     background-color: #F2F2F2;
     margin-top: 1px;
     margin-right: 5px;
@@ -401,7 +415,7 @@ strong {
 
 /*********section populaire***********/
 
-.asides {
+.lespluspopulaires {
     background-color: #F2F2F2;
     margin-left: 45px;
     border: 2px #F2F2F2;

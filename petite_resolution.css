@@ -3,17 +3,25 @@
     body {
         margin: auto;
     }
+    header,
+    #conteneur {
+        margin-left: 0px;
+    }
     /*****logo********/
     #logo {
         margin-top: 0px;
     }
     /****barre de naviguation****/
     .nav {
-        display: flex;
         flex-wrap: wrap-reverse;
         margin-top: 60px;
         margin-left: 0px;
+        border-bottom: 2px grey solid;
         padding: 0px;
+    }
+    .trait:hover {
+        border-top: none;
+        ;
     }
     .nav li {
         list-style: none;
@@ -23,40 +31,15 @@
     .nav a {
         color: #0065FC;
         text-decoration: none;
-        margin:0px;
     }
-    ul{
-        margin-right:0px;
-    }
-    li{
-        margin-right:5px;
-    }
-    a#trait2 {
-        margin-left: auto;
-    }
-    #trait {
-        display: inline-block;
-        border-bottom: 3px #0065FC solid;
-        font-weight: bold;
-        text-align: center;
-        width: 135%;
-        padding-bottom: 10px;
-        border-top: none;
-        padding-top: 0px;
-    }
-    #trait2 {
-        display: inline-block;
-        width: 250%;
-        padding-bottom: 10px;
-        border-bottom: 3px #F2F2F2 solid;
-        text-align: center;
-        color: black;
-        font-weight: bold;
+    li {
+        margin-right: 5px;
+        margin-bottom: 20px;
     }
     .gras {
-        margin-bottom: 70px;
+        margin-bottom: 20px;
         margin-top: -30px;
-        margin-left: 190px;
+        margin-left: 220px;
     }
     /*****h1 , h2 *******/
     h1 {
@@ -97,7 +80,7 @@
         margin-left: -10px;
     }
     /******filtres**********/
-    .fil {
+    .filtre {
         margin-bottom: 2px;
         margin-top: 10px;
     }
@@ -177,7 +160,7 @@
     .fa-info {
         margin-left: 10px;
     }
-    .log {
+    .logement {
         margin-left: 40px;
         font-family: 'raleway Bold';
         font-size: 1.2rem;
@@ -191,7 +174,7 @@
         height: auto;
     }
     /************section populaire*************/
-    .asides {
+    .lespluspopulaires {
         border-radius: 0px 0px 0px 0px;
         min-width: 100%;
         height: auto;
@@ -201,7 +184,7 @@
         padding-left: 35%;
     }
     /***********section hebergement**********/
-    #hebergement {
+    section {
         background-color: white;
         border: none;
         min-width: 95%;
@@ -216,8 +199,8 @@
         min-width: 100%;
         margin: 0px
     }
-    #h3h {
-        margin-left: 0%;
+    #h3hebergement {
+        margin-left: 5%;
     }
     .art {
         border: 2px #F2F2F2 solid;
@@ -297,6 +280,9 @@
         width: 100%;
         height: 160px;
         object-fit: cover;
+    }
+    #h3activite {
+        margin-left: 2px;
     }
     /*******footer**********/
     #pieds {
