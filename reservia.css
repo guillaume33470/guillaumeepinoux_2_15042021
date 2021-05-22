@@ -136,9 +136,8 @@ strong {
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content: flex-end;
     margin-bottom: 50px;
-
 }
 
 .nav li {
@@ -267,19 +266,19 @@ a {
 
 /*****bordure global des filtres*****/
 
-.eco{
-    box-shadow: 0px 0px 0px 2px #F2F2F2;
-    border-radius: 50px 50px;
-    margin-left: 35px;
-    padding: 10px 10px 10px 0px;
-}
-.eco1{
+.eco {
     box-shadow: 0px 0px 0px 2px #F2F2F2;
     border-radius: 50px 50px;
     margin-left: 35px;
     padding: 10px 10px 10px 0px;
 }
 
+.eco1 {
+    box-shadow: 0px 0px 0px 2px #F2F2F2;
+    border-radius: 50px 50px;
+    margin-left: 35px;
+    padding: 10px 10px 10px 0px;
+}
 
 
 /*******gestion bordure des icones isolés******/
@@ -403,8 +402,8 @@ section {
 }
 
 .art:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .img1 {
@@ -486,8 +485,8 @@ section {
 }
 
 .act1:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .act1a {
@@ -504,8 +503,8 @@ section {
 }
 
 .act1a:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .act2a {
@@ -524,8 +523,8 @@ section {
 }
 
 .act2a:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .act2b {
@@ -543,8 +542,8 @@ section {
 }
 
 .act2b:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .act2c {
@@ -563,8 +562,8 @@ section {
 }
 
 .act2c:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .act2d {
@@ -582,8 +581,8 @@ section {
 }
 
 .act2d:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .img3 {
