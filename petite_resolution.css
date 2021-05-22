@@ -4,7 +4,8 @@
         margin: auto;
     }
     header,
-    #conteneur {
+    #conteneur,
+    #activites {
         margin-left: 10px;
     }
     /*****logo********/
@@ -292,7 +293,7 @@
         object-fit: cover;
     }
     #h3activite {
-        margin-left: 2px;
+        margin-left: 15px;
     }
     /*******footer**********/
     #pieds {
