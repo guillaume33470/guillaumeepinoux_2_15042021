@@ -46,6 +46,7 @@
         margin-top: 25px;
         width: 50%;
         text-align: center;
+        padding-bottom: 10px;
     }
     .gras {
         border-bottom: none;
@@ -86,10 +87,11 @@
         padding: 28px 25px 20px;
     }
     .fa-search {
+        position:relative;
         font-size: 1em;
         color: white;
         font-size: 1.1rem;
-        margin-left: -10px;
+        margin-left: -12px;
     }
     /******filtres**********/
     .filtre {
@@ -191,9 +193,7 @@
         height: auto;
         margin-left: 0px;
     }
-    .fa-chart-line {
-        padding-left: 35%;
-    }
+
     /***********section hebergement**********/
     section {
         background-color: white;

@@ -420,8 +420,15 @@ section {
 
 
 /*********section populaire***********/
-
+.ensembletitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
 .lespluspopulaires {
+    display:flex;
+    flex-direction: column;
     background-color: #F2F2F2;
     margin-left: 45px;
     border: 2px #F2F2F2;
@@ -442,6 +449,10 @@ section {
     width: 85%;
     max-width: 85%;
 }
+.fa-chart-line{
+    padding-top:30px;
+    padding-right: 40px;
+}
 
 .img2 {
     float: left;
@@ -454,12 +465,6 @@ section {
     border-radius: 10px 0px 0px 10px;
     display: table-column;
     object-fit: cover;
-}
-
-.fa-chart-line {
-    padding-left: 35%;
-    font-size: 1.3rem;
-    font-weight: 800;
 }
 
 
