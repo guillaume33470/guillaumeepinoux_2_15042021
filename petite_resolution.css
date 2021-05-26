@@ -198,7 +198,7 @@
     section {
         background-color: white;
         border: none;
-        min-width: 95%;
+        min-width: 100%;
         height: auto;
         margin-top: 45px;
         margin-bottom: -100px;
@@ -222,7 +222,8 @@
         width: 100%;
     }
     .affiche {
-        margin-left: 0px;
+        margin-left: 15px;
+        margin-bottom: 50px;
     }
     /******section activité*************/
     #activites {
@@ -230,7 +231,7 @@
         flex-direction: column;
         min-width: 95%;
         height: auto;
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .act1 {
         box-shadow: 3px 5px 3px #F2F2F2;
