@@ -19,6 +19,9 @@
         margin-left: 0px;
         padding: 0px;
     }
+    .trait{
+        color:black;
+    }
     .trait:hover {
         border-top: none;
     }
@@ -28,7 +31,6 @@
         list-style-type: none;
     }
     .nav a {
-        color: #0065FC;
         text-decoration: none;
     }
     nav .w50 {
@@ -42,11 +44,14 @@
     li {
         margin-bottom: 20px;
     }
-    .w50 {
+    .w50{
         margin-top: 25px;
         width: 50%;
         text-align: center;
         padding-bottom: 10px;
+    }
+    .inscription{
+        color:#0065FC;
     }
     .gras {
         border-bottom: none;
@@ -64,10 +69,6 @@
         width: 100%;
         font-size: 1.1rem;
     }
-    .h4pop{
-        margin-top:10px;
-    }
-
     /***formulaire de recherche*****/
     form {
         margin-left: auto;
@@ -191,19 +192,18 @@
         height: auto;
     }
     /************section populaire*************/
-    .lespluspopulaires {
+    .populaire1 {
         border-radius: 0px 0px 0px 0px;
         min-width: 100%;
         height: auto;
         margin-left: 0px;
     }
-    .stars2{
-        margin-top: 40px;
+    .stars{
+        padding-top: 0px;
     }
-    .stars3{
-        margin-top: 30px;
+    .fa-chart-line {
+        padding-top: 0px;
     }
-
 
     /***********section hebergement**********/
     section {
@@ -225,12 +225,14 @@
         margin-left: 5%;
     }
     .art {
-        border: 2px #F2F2F2 solid;
+        border-radius: 20px 20px 20px 20px;
         box-shadow: 3px 5px 3px #F2F2F2;
-        min-width: 100%;
+        min-width: 95%;
     }
     .img1 {
+        border-radius: 20px 20px 0px 0px;
         width: 100%;
+        margin-left: 15px;
     }
     .affiche {
         margin-left: 15px;

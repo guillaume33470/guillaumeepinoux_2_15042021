@@ -60,14 +60,12 @@ h2 {
     font-family: 'ralewayB';
     text-align: left;
     font-size: 1.2rem;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 25px;
+    margin-top:-8px;
+    margin-bottom: -20px;
 }
 
 #h3activite {
     font-family: 'ralewayB';
-    font-weight: bolder;
     text-align: left;
     font-size: 1.2rem;
     margin-top: 90px;
@@ -93,8 +91,6 @@ h2 {
 .h4pop{
     font-family:"ralewayB";
     font-size: 0.8rem;
-    margin-top: 5px;
-    margin-bottom: 0px;;
 }
 
 .H4activite {
@@ -134,7 +130,6 @@ strong {
 /******logo*******/
 
 #logo {
-    width: 90px;
     height: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -158,7 +153,7 @@ strong {
 }
 
 .nav a {
-    margin: 0px 30px;
+    margin: 0px 20px;
     text-decoration: none;
 }
 
@@ -167,7 +162,7 @@ strong {
 }
 
 .trait:hover {
-    color: blue;
+    color: #0065FC;
     border-top: 2px #0065FC solid;
     padding-top: 30px;
 }
@@ -176,11 +171,12 @@ strong {
     color: black;
 }
 
-a {
-    color: blue;
+a { 
     font-weight: bold;
 }
-
+.inscription{
+    color:#0065FC;
+}
 
 /**********formulaire de recherche******/
 
@@ -344,7 +340,7 @@ a {
 #conteneur {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .stars {
@@ -417,64 +413,72 @@ section {
     margin-top: 3px;
     object-fit: cover;
 }
+.starsa{
+    margin-left: 15px;
+}
 
 
 /*********section populaire***********/
-.ensembletitle{
+.populaire1{
+    background-color:#f2f2f2;
+    border-radius: 15px 15px 15px 15px; 
+    display: flex; 
+    flex-direction: column;
+    width: 32%;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.populaire_title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
 }
-.lespluspopulaires {
-    display:flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    margin-left: 45px;
-    border: 2px #F2F2F2;
-    border-radius: 15px 15px 15px 15px;
-    height: auto;
-    width: 30%;
+
+.fa-chart-line {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: black;
+    padding-top: 40px;
 }
 
-.pop {
+.article {
+    display: flex;
+    padding: 5px;
+    height: 140px;
     background-color: white;
-    box-shadow: 3px 5px 3px #9a9a9a;
-    border-radius: 20px 20px 20px 20px;
-    margin: 20px;
-    height: 135px;
-    max-width: 90%;
+    margin: 10px 5px 10px 5px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px #e4e4e4;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
-
-.fa-chart-line{
-    padding-top:30px;
-    padding-right: 40px;
-}
-
-.img2 {
-    float: left;
-    height: 130px;
-    width: 130px;
-    max-width: 130px;
-    margin-top: 3px;
-    margin-left: 3px;
-    margin-right: 10px;
-    border-radius: 10px 0px 0px 10px;
-    display: table-column;
+img { 
+    width: 130px; 
     object-fit: cover;
+    border-radius: 15px 0 0 15px;
 }
-.titrepop{
-    display:flex;
+
+.hotel_details  {
+    padding: 5px 20px 5px 20px;
+    display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: space-around;
 }
-.stars2{
-    margin-bottom: 1px;
-    margin-top: 50px;
+
+.stars {
+    padding-top: 30px;
+    margin-left: 0px;
 }
-.stars3{
-    margin-top: 40px;
+.fa-chart-line {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: black;
+    padding-top: 20px;
 }
 
 
