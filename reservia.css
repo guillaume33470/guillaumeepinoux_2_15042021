@@ -559,7 +559,7 @@ img {
     border: 2px #F2F2F2 solid;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 3px 5px 3px #9a9a9a;
-    height: 140px;
+    height: 130px;
     width: 270px;
     max-width: 270px;
     -webkit-transform: scale(1);
@@ -657,7 +657,8 @@ img {
     height: auto;
     width: 100%;
     margin-top: 50px;
-    padding:30px;
+    padding-top:30px;
+    padding-bottom: 30px;;
 }
 
 .assistance {
@@ -667,6 +668,9 @@ img {
 .lireso {
     margin:10px;
     font-family: 'raleway';
+    list-style-type: none;
+}
+ul{
     list-style-type: none;
 }
 
