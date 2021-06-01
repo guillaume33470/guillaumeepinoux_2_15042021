@@ -1,21 +1,26 @@
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1024px) {
     /*******global********/
     body {
         margin: auto;
     }
     header,
-    #conteneur,
     #activites {
         margin-left: 10px;
+    }
+    #conteneur{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     /*****logo********/
     #logo {
         margin-top: 0px;
+        object-fit:contain;
+        width: 80px;
     }
     /****barre de naviguation****/
     .nav {
         flex-wrap: wrap-reverse;
-        margin-top: 60px;
+        margin-top: 50px;
         margin-left: 0px;
         padding: 0px;
     }
@@ -35,17 +40,17 @@
     }
     nav .w50 {
         border-bottom: 3px solid #f1eeee;
-        margin-bottom: 15px;
+
     }
     nav .w50:hover {
         border-bottom-color: #0065fc;
         padding-top: 0rem;
     }
-    li {
+    li {margin: 0px;
         margin-bottom: 20px;
     }
     .w50{
-        margin-top: 25px;
+        margin-top: 20px;
         width: 50%;
         text-align: center;
         padding-bottom: 10px;
@@ -62,13 +67,40 @@
     /*****h1 , h2 *******/
     h1 {
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.4em;
+        margin-top: -40px;
     }
     h2 {
         margin-left: auto;
         width: 100%;
         font-size: 1.1rem;
     }
+    .poptitre{
+        margin-left: 30px;
+    }
+    .populaire{
+        font-size: 0.8rem;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .h4pop{
+        font-family: "raleway";
+        margin-left: 10px;
+        margin-top: 1px;
+    }
+    .h4heberge{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .h5heberge{
+        margin-top: 10px;
+    }
+    .affiche {
+        margin-left: 15px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    
     /***formulaire de recherche*****/
     form {
         margin-left: auto;
@@ -78,7 +110,7 @@
         display: inline-block;
     }
     .barre {
-        width: 200px;
+        width: 185px;
     }
     .myButton {
         box-shadow: 0px 0px 0px 2px #0065FC;
@@ -96,17 +128,18 @@
         font-size: 1em;
         color: white;
         font-size: 1.1rem;
-        margin-left: -12px;
+        margin-left: -15px;
     }
     /******filtres**********/
     .filtre {
-        margin-bottom: 2px;
+        margin-bottom: 20px;
         margin-top: 10px;
     }
     #nav2 li {
         display: inline-block;
         font-size: 0.5em;
         padding-left: 15px;
+        padding-right: 15px;
     }
     .eco1 {
         padding: initial;
@@ -117,7 +150,7 @@
     }
     #nav2 {
         margin: 0;
-        padding-left: 10px;
+        margin-left: -5%;
         font-size: 1.950em;
         font-weight: bold;
         width: 95%;
@@ -177,13 +210,15 @@
     }
     /*****point info + texte********/
     .fa-info {
-        margin-left: 10px;
+        margin-top: 5px;
     }
     .logement {
-        margin-left: 40px;
+        margin-left: 35px;
+        margin-top:-25px;
+        margin-bottom: 40px;
         font-family: 'raleway Bold';
         font-size: 1.2rem;
-        width: 90%;
+        width:98%
     }
     /*******conteneur bloc hebergement + populaire********/
     #conteneur {
@@ -192,26 +227,45 @@
         height: auto;
     }
     /************section populaire*************/
+    .populaire_title{
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+    
     .populaire1 {
         border-radius: 0px 0px 0px 0px;
-        min-width: 100%;
-        height: auto;
+        min-width: 93.5%;
+        height: 620px;
         margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    .article{
+        margin-left:25px;
+    }
+    .hotel_details{
+        justify-content: space-between;
+        padding:0px 0px 0px 0px;
     }
     .stars{
         padding-top: 0px;
     }
     .fa-chart-line {
         padding-top: 0px;
+        padding-right: 15px;
     }
-
+    .stars{
+        margin-left: 10px;
+        margin-bottom: 2px;
+        font-size: x-large;
+    }
     /***********section hebergement**********/
     section {
         background-color: white;
         border: none;
         min-width: 100%;
         height: auto;
-        margin-top: 45px;
+        margin-top: 5px;
         margin-bottom: -100px;
     }
     .range1 {
@@ -228,15 +282,17 @@
         border-radius: 20px 20px 20px 20px;
         box-shadow: 3px 5px 3px #F2F2F2;
         min-width: 95%;
+        height:210px;
     }
     .img1 {
         border-radius: 20px 20px 0px 0px;
         width: 100%;
         margin-left: 15px;
     }
-    .affiche {
-        margin-left: 15px;
-        margin-bottom: 50px;
+    
+    .starsa{
+        margin-top: 5px;
+        font-size: x-large;
     }
     /******section activité*************/
     #activites {
@@ -313,10 +369,21 @@
     #pieds {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         width: 100%;
         height: auto;
-        padding: 0%;
+        padding:0px;
     }
+    .lireso{
+        margin:5px;
+    }
+    ul{
+        padding:0px;
+        margin-top: 40px;
+        margin-left: 15px;
+        list-style-type: none;
+    }
+   
     .assistance {
         width: 100%;
         margin-right: 0px;

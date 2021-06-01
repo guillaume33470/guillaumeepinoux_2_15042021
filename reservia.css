@@ -13,7 +13,7 @@
 
 body {
     margin: auto;
-    max-width:1440px;
+    max-width:1640px;
 }
 
 header,
@@ -137,9 +137,10 @@ strong {
 /******logo*******/
 
 #logo {
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 41px;
+    object-fit:contain;
+    width: 80px;
 }
 
 
@@ -348,6 +349,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 625px;
 }
 
 .stars {
@@ -377,16 +379,16 @@ section {
     margin-right: 5px;
     border: 2px #F2F2F2 solid;
     border-radius: 15px 15px 15px 15px;
-    width: 65%;
+    width: 63%;
 }
 
 .range1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 5px 40px;
-    width: 90%;
+    width: 93%;
 }
 
 .art {
@@ -394,9 +396,8 @@ section {
     box-shadow: 3px 5px 3px #9a9a9a;
     border: 1px white solid;
     border-radius: 10px 10px 10px 10px;
-    margin: 15px 15px 5px 5px;
-    width: 25%;
-    max-width: 25%;
+    margin: 20px 20px 15px 5px;
+    width: 29%;
     height: 195px;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -431,9 +432,9 @@ section {
     border-radius: 15px 15px 15px 15px; 
     display: flex; 
     flex-direction: column;
-    width: 32%;
-    padding-left: 5px;
-    padding-right: 10px;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .populaire_title {
@@ -455,7 +456,7 @@ section {
     padding: 5px;
     height: 140px;
     background-color: white;
-    margin: 10px 5px 10px 5px;
+    margin: 25px 10px 10px 10px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 5px #e4e4e4;
 }
@@ -655,16 +656,16 @@ img {
     background-color: #F2F2F2;
     height: auto;
     width: 100%;
-    max-width: 100%;
     margin-top: 50px;
-    margin-bottom: 20px;
+    padding:30px;
 }
 
 .assistance {
     margin-right: 380px;
 }
 
-li {
+.lireso {
+    margin:10px;
     font-family: 'raleway';
     list-style-type: none;
 }
@@ -675,5 +676,5 @@ li {
 
 .gras2 {
     font-family: 'ralewayB';
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
