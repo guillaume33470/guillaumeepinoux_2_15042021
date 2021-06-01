@@ -56,6 +56,12 @@ h2 {
     margin-bottom: 0px;
     margin-left: 90px;
 }
+.poptitre{
+    font-family: 'ralewayB';
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
 
 .populaire {
     font-family: 'ralewayB';
@@ -70,7 +76,7 @@ h2 {
     text-align: left;
     font-size: 1.2rem;
     margin-top: 90px;
-    margin-left: 70px;
+    margin-left:50px;
 }
 
 .h4heberge {
