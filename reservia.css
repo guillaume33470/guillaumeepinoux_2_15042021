@@ -54,7 +54,7 @@ h2 {
     font-size: 1.2rem;
     margin-top: 30px;
     margin-bottom: 0px;
-    margin-left: 90px;
+    margin-left: 7%;
 }
 .poptitre{
     font-family: 'ralewayB';
@@ -140,7 +140,7 @@ strong {
     margin-top: 40px;
     margin-bottom: 41px;
     object-fit:contain;
-    width: 80px;
+    width: 90px;
 }
 
 
@@ -166,6 +166,7 @@ strong {
 }
 
 .trait {
+    font-size:1.2rem;
     color: black;
 }
 
@@ -183,6 +184,7 @@ a {
     font-weight: bold;
 }
 .inscription{
+    font-size:1.2rem;
     color:#0065FC;
 }
 
