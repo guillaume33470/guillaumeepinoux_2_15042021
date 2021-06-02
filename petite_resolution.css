@@ -1,4 +1,4 @@
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1024px) {
     /*******global********/
     body {
         margin: auto;
@@ -79,14 +79,13 @@
         margin-left: 30px;
     }
     .populaire{
-        font-size: 0.8rem;
-        margin-left: 10px;
+        font-size: 1.2rem;
         margin-top: 0px;
     }
-    .h4pop{
+    span{
         font-family: "raleway";
-        margin-left: 10px;
         margin-top: 10px;
+        font-size: 1rem;
     }
     .h4heberge{
         font-size: 1rem;
@@ -234,7 +233,6 @@
     .populaire1 {
         border-radius: 0px 0px 0px 0px;
         min-width: 93.5%;
-        height: 620px;
         margin-left: 0px;
         padding-left: 0px;
         padding-right: 20px;
@@ -245,6 +243,7 @@
     .hotel_details{
         justify-content: space-between;
         padding:0px 0px 0px 0px;
+        margin-left: 10px;
     }
     .stars{
         padding-top: 0px;
@@ -303,6 +302,7 @@
     }
     .act1 {
         box-shadow: 3px 5px 3px #F2F2F2;
+        width: 95%;
         min-width: 95%;
         height: 210px;
         margin-bottom: 20px;

@@ -52,7 +52,7 @@ h2 {
     font-family: 'ralewayB';
     text-align: left;
     font-size: 1.2rem;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 0px;
     margin-left: 7%;
 }
@@ -66,9 +66,7 @@ h2 {
 .populaire {
     font-family: 'ralewayB';
     text-align: left;
-    font-size: 1.2rem;
-    margin-top:-8px;
-    margin-bottom: -20px;
+    margin-bottom: -3px;
 }
 
 #h3activite {
@@ -92,12 +90,13 @@ h2 {
     font-family: 'ralewayB';
     text-align: left;
     font-size: 1rem;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 50px;
 }
-.h4pop{
-    font-family:"ralewayB";
-    font-size: 0.8rem;
+span{
+    font-family:"raleway";
+    font-size: 1rem;
+    margin-top: -50px;
 }
 
 .H4activite {
@@ -174,7 +173,7 @@ strong {
 .trait:hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 #trait2 {
@@ -437,37 +436,37 @@ section {
     display: flex; 
     flex-direction: column;
     height: auto;
-    width: 30%;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 33%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-.populaire_article{
-    height: auto;
-}
+
 
 .populaire_title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 .articlepop {
     display: flex;
     padding: 5px;
-    width: 95%;
-    height:22%;
+    width: 90%;
+    height:150px;
     background-color: white;
-    margin: 25px 10px 10px 10px;
+    margin: 25px 10px 30px 10px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 5px #e4e4e4;
 }
 
 .hotel_details  {
-    padding: 5px 20px 5px 20px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 a{
@@ -479,6 +478,7 @@ a{
     font-size: 1.5em;
     color: black;
     padding-top: 0px;
+    padding-right: 30px;
 }
 img { 
     width: 130px; 
@@ -487,7 +487,6 @@ img {
 }
 
 .stars {
-    padding-top: 45px;
     margin-left: 0px;
 }
 
