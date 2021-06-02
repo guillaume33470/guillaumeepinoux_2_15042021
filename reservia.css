@@ -172,8 +172,8 @@ strong {
 
 .trait:hover {
     color: #0065FC;
-    border-top: 2px #0065FC solid;
-    padding-top: 50px;
+    border-top: 4px #0065FC solid;
+    padding-top: 48px;
 }
 
 #trait2 {
@@ -223,7 +223,7 @@ a {
     font-family: 'ralewayB';
     font-size: 1.2rem;
     font-weight: bold;
-    padding: 14px 20px 16px;
+    padding: 9px 10px 16px;
 }
 
 .myButton:hover {
