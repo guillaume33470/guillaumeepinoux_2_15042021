@@ -93,7 +93,7 @@ h2 {
     text-align: left;
     font-size: 1rem;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .h4pop{
     font-family:"ralewayB";
@@ -166,6 +166,7 @@ strong {
 }
 
 .trait {
+    font-family: 'raleway';
     font-size:1.2rem;
     color: black;
 }
@@ -221,7 +222,7 @@ a {
     text-shadow: 0px 1px 0px #283966;
     text-decoration: none;
     font-family: 'ralewayB';
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     padding: 14px 20px 16px;
 }
@@ -253,6 +254,7 @@ a {
 }
 
 #nav2 {
+    font-family: 'ralewayB';
     margin-left: 30px;
     margin-top: 30px;
     margin-right: 62px;
@@ -351,7 +353,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 625px;
+    height: auto;
 }
 
 .stars {
@@ -434,9 +436,13 @@ section {
     border-radius: 15px 15px 15px 15px; 
     display: flex; 
     flex-direction: column;
+    height: auto;
     width: 30%;
     padding-left: 30px;
     padding-right: 30px;
+}
+.populaire_article{
+    height: auto;
 }
 
 .populaire_title {
@@ -446,51 +452,44 @@ section {
     color: black;
 }
 
-.fa-chart-line {
-    font-weight: 800;
-    font-size: 1.5em;
-    color: black;
-    padding-top: 40px;
-}
-
-.article {
+.articlepop {
     display: flex;
     padding: 5px;
-    height: 140px;
+    width: 95%;
+    height:22%;
     background-color: white;
     margin: 25px 10px 10px 10px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 5px #e4e4e4;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-
-img { 
-    width: 130px; 
-    object-fit: cover;
-    border-radius: 15px 0 0 15px;
 }
 
 .hotel_details  {
     padding: 5px 20px 5px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.stars {
-    padding-top: 30px;
-    margin-left: 0px;
+a{
+    text-decoration: none;
+    color: black;
 }
 .fa-chart-line {
     font-weight: 800;
     font-size: 1.5em;
     color: black;
-    padding-top: 20px;
+    padding-top: 0px;
+}
+img { 
+    width: 130px; 
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
 }
 
+.stars {
+    padding-top: 45px;
+    margin-left: 0px;
+}
 
 /********section activités*************/
 
@@ -514,24 +513,6 @@ img {
 }
 
 .act1:hover {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
-}
-
-.act1a {
-    background-color: white;
-    border: 2px #F2F2F2 solid;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 3px 5px 3px #9a9a9a;
-    height: 390px;
-    max-width: 320px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.act1a:hover {
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
 }

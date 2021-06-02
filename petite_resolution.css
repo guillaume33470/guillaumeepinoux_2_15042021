@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
     /*******global********/
     body {
         margin: auto;
@@ -86,7 +86,7 @@
     .h4pop{
         font-family: "raleway";
         margin-left: 10px;
-        margin-top: 1px;
+        margin-top: 10px;
     }
     .h4heberge{
         font-size: 1rem;
@@ -151,7 +151,6 @@
     #nav2 {
         margin: 0;
         margin-left: -5%;
-        font-size: 1.950em;
         font-weight: bold;
         width: 95%;
     }
@@ -240,7 +239,7 @@
         padding-left: 0px;
         padding-right: 20px;
     }
-    .article{
+    .articlepop{
         margin-left:25px;
     }
     .hotel_details{
