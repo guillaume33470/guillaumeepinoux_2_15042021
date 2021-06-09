@@ -376,7 +376,7 @@ a {
 
 /*********section  hebergements**********/
 
-section {
+.hebergement {
     background-color: #F2F2F2;
     margin-top: 1px;
     margin-right: 5px;
@@ -409,8 +409,8 @@ section {
 }
 
 .art:hover {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .img1 {
@@ -492,7 +492,7 @@ img {
 
 /********section activités*************/
 
-#activites {
+.activites {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -512,8 +512,8 @@ img {
 }
 
 .act1:hover {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .act2a {
@@ -532,8 +532,8 @@ img {
 }
 
 .act2a:hover {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .act2b {
@@ -551,8 +551,8 @@ img {
 }
 
 .act2b:hover {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .act2c {
@@ -571,8 +571,8 @@ img {
 }
 
 .act2c:hover {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .act2d {
@@ -590,8 +590,8 @@ img {
 }
 
 .act2d:hover {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .img3 {

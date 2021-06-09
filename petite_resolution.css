@@ -235,10 +235,10 @@
         width: 100%;
         margin-left: 0px;
         padding-left: 0px;
-        padding-right: 20px;
+        padding-right: 0px;
     }
     .articlepop{
-        margin-left:25px;
+        width: 93%;
     }
     .hotel_details{
         justify-content: space-between;
@@ -258,7 +258,7 @@
         font-size: x-large;
     }
     /***********section hebergement**********/
-    section {
+    .hebergement {
         background-color: white;
         border: none;
         min-width: 100%;
@@ -293,12 +293,12 @@
         font-size: x-large;
     }
     /******section activité*************/
-    #activites {
+    .activites {
         display: flex;
         flex-direction: column;
         min-width: 95%;
         height: auto;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .act1 {
         box-shadow: 3px 5px 3px #F2F2F2;
